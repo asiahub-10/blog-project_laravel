@@ -132,7 +132,7 @@ Route::post('/slider/delete-slider', [
 
 //*******use of middleware for group*******
 
-Route::group(['middleware' => 'admin'], function () {
+//Route::group(['middleware' => 'admin'], function () {
 
     Route::get('/category/add-category', [
         'uses'  =>  'CategoryController@addCategory',
@@ -164,7 +164,7 @@ Route::group(['middleware' => 'admin'], function () {
         'as'    =>  'delete-category'
     ]);
 
-});
+//});
 
 
 
