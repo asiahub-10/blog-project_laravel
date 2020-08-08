@@ -32,7 +32,7 @@ Route::get('/', [
 Route::get('/category-blog/{id}/{name}', [
     'uses'          => 'ProjectController@categoryBlog',
     'as'            => 'category-blog',
-    'middleware'    =>  'visitor'
+    //'middleware'    =>  'visitor'
 ]);
 
 Route::get('/blog-details/{id}', [
@@ -132,7 +132,7 @@ Route::post('/slider/delete-slider', [
 
 //*******use of middleware for group*******
 
-//Route::group(['middleware' => 'admin'], function () {
+Route::group(['middleware' => 'admin'], function () {
 
     Route::get('/category/add-category', [
         'uses'  =>  'CategoryController@addCategory',
@@ -164,7 +164,7 @@ Route::post('/slider/delete-slider', [
         'as'    =>  'delete-category'
     ]);
 
-//});
+});
 
 
 

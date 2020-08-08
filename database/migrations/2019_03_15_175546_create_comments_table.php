@@ -18,6 +18,7 @@ class CreateCommentsTable extends Migration
             $table->integer('visitor_id');
             $table->integer('blog_id');
             $table->text('comment');
+			$table->tinyInteger('publication_status')->default(0);
             $table->timestamps();
         });
     }

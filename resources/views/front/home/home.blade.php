@@ -80,7 +80,7 @@
         <!-- /.row -->
 
         <!-- Features Section -->
-        <div class="row">
+        <!--<div class="row">
             <div class="col-lg-6">
                 <h2>Modern Business Features</h2>
                 <p>The Modern Business template by Start Bootstrap includes:</p>
@@ -98,7 +98,7 @@
             <div class="col-lg-6">
                 <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
             </div>
-        </div>
+        </div> -->
         <!-- /.row -->
 
         <hr>
