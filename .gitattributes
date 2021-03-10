@@ -4,5 +4,5 @@
 *.js linguist-vendored
 *.html linguist-detectable=false
 *.php linguist-detectable=true
-*.blade linguist-detectable=false
+*.blade.php linguist-detectable=false
 CHANGELOG.md export-ignore
