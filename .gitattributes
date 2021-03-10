@@ -3,5 +3,5 @@
 *.scss linguist-vendored
 *.js linguist-vendored
 *.html linguist-detectable=false
-*.Blade linguist-detectable=false
+*.blade linguist-detectable=false
 CHANGELOG.md export-ignore
